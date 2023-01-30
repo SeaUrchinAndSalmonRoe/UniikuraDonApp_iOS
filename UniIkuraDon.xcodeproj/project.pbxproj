@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4B3C9BAEA27389C4E060304 /* Pods_UniIkuraDon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320AA05C029E8A610309EFC6 /* Pods_UniIkuraDon.framework */; };
+		D9397A6A29825B1E00A1E2C4 /* UserPhotoRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9397A6929825B1E00A1E2C4 /* UserPhotoRepositoryProtocol.swift */; };
+		D946AC33297F92E900191002 /* UniIkuraDonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946AC32297F92E900191002 /* UniIkuraDonApp.swift */; };
+		D946AC35297F92E900191002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946AC34297F92E900191002 /* ContentView.swift */; };
+		D946AC37297F92EA00191002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D946AC36297F92EA00191002 /* Assets.xcassets */; };
+		D946AC3A297F92EA00191002 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D946AC39297F92EA00191002 /* Preview Assets.xcassets */; };
+		D946AC43297F9D3700191002 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946AC42297F9D3700191002 /* ProfileView.swift */; };
+		D946AC45297FE71200191002 /* TimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946AC44297FE71200191002 /* TimeLineView.swift */; };
+		D946AC47297FE7EC00191002 /* UserPhotoListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946AC46297FE7EC00191002 /* UserPhotoListData.swift */; };
+		D946AC49297FEFE200191002 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946AC48297FEFE200191002 /* PhotoDetailView.swift */; };
+		D946AC4B298001F600191002 /* UserPhotoApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946AC4A298001F600191002 /* UserPhotoApiService.swift */; };
+		D946AC4D2980071800191002 /* UserPhotoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946AC4C2980071800191002 /* UserPhotoRepository.swift */; };
+		D946AC51298130EB00191002 /* UserPhotoDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946AC50298130EB00191002 /* UserPhotoDetailData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		320AA05C029E8A610309EFC6 /* Pods_UniIkuraDon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniIkuraDon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D15D6D6E6C14100BC4353D0 /* Pods-UniIkuraDon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniIkuraDon.debug.xcconfig"; path = "Target Support Files/Pods-UniIkuraDon/Pods-UniIkuraDon.debug.xcconfig"; sourceTree = "<group>"; };
+		D4D48877BF387342691FE0AE /* Pods-UniIkuraDon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniIkuraDon.release.xcconfig"; path = "Target Support Files/Pods-UniIkuraDon/Pods-UniIkuraDon.release.xcconfig"; sourceTree = "<group>"; };
+		D9397A6929825B1E00A1E2C4 /* UserPhotoRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoRepositoryProtocol.swift; sourceTree = "<group>"; };
+		D946AC2F297F92E900191002 /* UniIkuraDon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniIkuraDon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D946AC32297F92E900191002 /* UniIkuraDonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniIkuraDonApp.swift; sourceTree = "<group>"; };
+		D946AC34297F92E900191002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D946AC36297F92EA00191002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D946AC39297F92EA00191002 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D946AC42297F9D3700191002 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D946AC44297FE71200191002 /* TimeLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineView.swift; sourceTree = "<group>"; };
+		D946AC46297FE7EC00191002 /* UserPhotoListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoListData.swift; sourceTree = "<group>"; };
+		D946AC48297FEFE200191002 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		D946AC4A298001F600191002 /* UserPhotoApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoApiService.swift; sourceTree = "<group>"; };
+		D946AC4C2980071800191002 /* UserPhotoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoRepository.swift; sourceTree = "<group>"; };
+		D946AC50298130EB00191002 /* UserPhotoDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoDetailData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D946AC2C297F92E900191002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B3C9BAEA27389C4E060304 /* Pods_UniIkuraDon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057F94D07E2585789A5E9C86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D15D6D6E6C14100BC4353D0 /* Pods-UniIkuraDon.debug.xcconfig */,
+				D4D48877BF387342691FE0AE /* Pods-UniIkuraDon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		071C48B079AA371D975C8A71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				320AA05C029E8A610309EFC6 /* Pods_UniIkuraDon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9397A6429824CD400A1E2C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D946AC34297F92E900191002 /* ContentView.swift */,
+				D946AC44297FE71200191002 /* TimeLineView.swift */,
+				D946AC48297FEFE200191002 /* PhotoDetailView.swift */,
+				D946AC42297F9D3700191002 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9397A652982570300A1E2C4 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D9397A6929825B1E00A1E2C4 /* UserPhotoRepositoryProtocol.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D9397A66298257E400A1E2C4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D946AC4C2980071800191002 /* UserPhotoRepository.swift */,
+				D946AC4A298001F600191002 /* UserPhotoApiService.swift */,
+				D946AC46297FE7EC00191002 /* UserPhotoListData.swift */,
+				D946AC50298130EB00191002 /* UserPhotoDetailData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D946AC26297F92E900191002 = {
+			isa = PBXGroup;
+			children = (
+				D946AC31297F92E900191002 /* UniIkuraDon */,
+				D946AC30297F92E900191002 /* Products */,
+				057F94D07E2585789A5E9C86 /* Pods */,
+				071C48B079AA371D975C8A71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D946AC30297F92E900191002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D946AC2F297F92E900191002 /* UniIkuraDon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D946AC31297F92E900191002 /* UniIkuraDon */ = {
+			isa = PBXGroup;
+			children = (
+				D9397A66298257E400A1E2C4 /* Data */,
+				D9397A652982570300A1E2C4 /* Domain */,
+				D9397A6429824CD400A1E2C4 /* View */,
+				D946AC32297F92E900191002 /* UniIkuraDonApp.swift */,
+				D946AC36297F92EA00191002 /* Assets.xcassets */,
+				D946AC38297F92EA00191002 /* Preview Content */,
+			);
+			path = UniIkuraDon;
+			sourceTree = "<group>";
+		};
+		D946AC38297F92EA00191002 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D946AC39297F92EA00191002 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D946AC2E297F92E900191002 /* UniIkuraDon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D946AC3D297F92EA00191002 /* Build configuration list for PBXNativeTarget "UniIkuraDon" */;
+			buildPhases = (
+				72B77B02A85ECC4A795E906F /* [CP] Check Pods Manifest.lock */,
+				D946AC2B297F92E900191002 /* Sources */,
+				D946AC2C297F92E900191002 /* Frameworks */,
+				D946AC2D297F92E900191002 /* Resources */,
+				0141D8666CD35E1C09FEBDF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniIkuraDon;
+			productName = UniIkuraDon;
+			productReference = D946AC2F297F92E900191002 /* UniIkuraDon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D946AC27297F92E900191002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D946AC2E297F92E900191002 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D946AC2A297F92E900191002 /* Build configuration list for PBXProject "UniIkuraDon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D946AC26297F92E900191002;
+			productRefGroup = D946AC30297F92E900191002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D946AC2E297F92E900191002 /* UniIkuraDon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D946AC2D297F92E900191002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D946AC3A297F92EA00191002 /* Preview Assets.xcassets in Resources */,
+				D946AC37297F92EA00191002 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0141D8666CD35E1C09FEBDF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniIkuraDon/Pods-UniIkuraDon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniIkuraDon/Pods-UniIkuraDon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniIkuraDon/Pods-UniIkuraDon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72B77B02A85ECC4A795E906F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniIkuraDon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D946AC2B297F92E900191002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D946AC35297F92E900191002 /* ContentView.swift in Sources */,
+				D946AC4B298001F600191002 /* UserPhotoApiService.swift in Sources */,
+				D946AC47297FE7EC00191002 /* UserPhotoListData.swift in Sources */,
+				D946AC49297FEFE200191002 /* PhotoDetailView.swift in Sources */,
+				D946AC43297F9D3700191002 /* ProfileView.swift in Sources */,
+				D946AC4D2980071800191002 /* UserPhotoRepository.swift in Sources */,
+				D946AC51298130EB00191002 /* UserPhotoDetailData.swift in Sources */,
+				D946AC33297F92E900191002 /* UniIkuraDonApp.swift in Sources */,
+				D946AC45297FE71200191002 /* TimeLineView.swift in Sources */,
+				D9397A6A29825B1E00A1E2C4 /* UserPhotoRepositoryProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D946AC3B297F92EA00191002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D946AC3C297F92EA00191002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D946AC3E297F92EA00191002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D15D6D6E6C14100BC4353D0 /* Pods-UniIkuraDon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniIkuraDon/Preview Content\"";
+				DEVELOPMENT_TEAM = 5QCS2YW3BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "うにいくら丼App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roe.salmon.and.urchin.sea.UniIkuraDon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D946AC3F297F92EA00191002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D48877BF387342691FE0AE /* Pods-UniIkuraDon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniIkuraDon/Preview Content\"";
+				DEVELOPMENT_TEAM = 5QCS2YW3BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "うにいくら丼App";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = roe.salmon.and.urchin.sea.UniIkuraDon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D946AC2A297F92E900191002 /* Build configuration list for PBXProject "UniIkuraDon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D946AC3B297F92EA00191002 /* Debug */,
+				D946AC3C297F92EA00191002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D946AC3D297F92EA00191002 /* Build configuration list for PBXNativeTarget "UniIkuraDon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D946AC3E297F92EA00191002 /* Debug */,
+				D946AC3F297F92EA00191002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D946AC27297F92E900191002 /* Project object */;
+}
